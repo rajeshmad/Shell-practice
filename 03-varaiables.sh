@@ -1,8 +1,8 @@
 #!/bin/bash
 
-person 1 = Trump
-person 2 = Musk
-echo "person 1 : Hi Musk, How are you doing?"
-echo "person 2 : I'm doing fine. How are you?"
-echo "person 1 : When are you giing to Mars?"
-echo "person 2 : May be tommarow"
+person1=Trump
+person2=Musk
+echo "$person1 : Hi Musk, How are you doing?"
+echo "$person2 : I'm doing fine. How are you?"
+echo "$person1 : When are you giing to Mars?"
+echo "$person2 : May be tommarow"
