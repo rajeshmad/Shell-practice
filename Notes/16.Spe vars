@@ -1,4 +1,5 @@
 Special variables:
+------------------
 1. All variables passed to the the script: $@
 2. Number of variables: $#
 3. Script name: $0
