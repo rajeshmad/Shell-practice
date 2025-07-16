@@ -8,3 +8,11 @@ Special variables:
 6. PID of the script: $$
 7. sleep 10 & - command running in the background
    PID of last command in the background: $!
+
+   
+Conditions:
+-----------
+-gt -> greater than
+-lt -> less than
+-eq -> equal
+-ne -> not equal
