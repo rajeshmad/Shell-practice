@@ -1,0 +1,11 @@
+#!/bin/bash
+
+USERID=$(id -u)
+
+if [ $USERID - nq 0]
+then
+    echo "Error:: please run this script with root access"
+else
+    echo "You are running with root access"
+fi
+

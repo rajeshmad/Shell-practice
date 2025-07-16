@@ -16,3 +16,11 @@ Conditions:
 -lt -> less than
 -eq -> equal
 -ne -> not equal
+
+Install mysql - taken as example to install mysql
+possible Conditions:
+1. user is running with root access or not
+   id command get the user deatils
+   id -u -> command to get only user ID
+2. if root user proceed to install
+3. else show the error to run with the root user
