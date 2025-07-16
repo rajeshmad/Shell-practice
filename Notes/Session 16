@@ -2,8 +2,10 @@ Colours in Schell Scripting
 ----------------------------
 -> Colour Syntax : \e[<code>m]
 -> \e mean escaping the special chars
--> 31 -> Red
--> 32 -> Green
+-> Red="\e[31m"
+-> Green="\e[32m"
+-> Yellow="\e[33m"
+-> Normal="\e[0m"
 
 ---------------------------
 -> To enable colours : echo -e 
