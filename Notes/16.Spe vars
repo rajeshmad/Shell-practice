@@ -1,0 +1,9 @@
+Special variables:
+1. All variables passed to the the script: $@
+2. Number of variables: $#
+3. Script name: $0
+4. Current directory of the user: $HOME
+5. User running this script: $USER
+6. PID of the script: $$
+7. sleep 10 & - command running in the background
+   PID of last command in the background: $!

@@ -10,3 +10,11 @@ Colours in Schell Scripting
 ---------------------------
 -> To enable colours : echo -e 
 -> To end the colour : ex- \e[32m Hello colour \e[0m
+=============================================================
+
+Redirections (to store the logs)
+------------
+< -- denotes INPUT
+> -- denotes OUTPUT
+
+
