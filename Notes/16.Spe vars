@@ -24,3 +24,10 @@ possible Conditions:
    id -u -> command to get only user ID
 2. if root user proceed to install
 3. else show the error to run with the root user
+
+exit status:
+-----------
+0-127
+success -> 0
+other than 0 -> failure
+$? - is the command to check the status
