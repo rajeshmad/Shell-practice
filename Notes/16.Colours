@@ -12,9 +12,10 @@ Colours in Schell Scripting
 -> To end the colour : ex- \e[32m Hello colour \e[0m
 =============================================================
 
-Redirections (to store the logs)
-------------
+* Redirections (to store the logs)
+
 < -- denotes INPUT
 > -- denotes OUTPUT
+
 
 

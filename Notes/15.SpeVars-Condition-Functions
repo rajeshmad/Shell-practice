@@ -31,3 +31,20 @@ exit status:
 success -> 0
 other than 0 -> failure
 $? - is the command to check the status
+
+
+Functions:
+----------
+Function takes inputs and do some work, you can call whenever you require.
+
+ex: in general like coffee machine
+
+function coffeeMaker(milk,water,beans,coffee)
+{
+boil the water
+crush beans
+mix milk, water and powder
+and
+return coffee
+}
+coffeeMaker(milk,water,beans,coffee)
