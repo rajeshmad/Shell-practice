@@ -16,7 +16,8 @@ fi
 
 #2. check if MySQl is already installed or not
 
-dnf installed list mysql
+
+dnf list installed mysql
 
 if [ $? -ne 0 ]
 then
@@ -33,4 +34,4 @@ fi
 
 else
     echo "MySql is already installed"
-    
+
