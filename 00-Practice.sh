@@ -6,7 +6,7 @@
 
 USER=$(id -u)
 
-if [ $USER -ne 0]
+if [ $USER -ne 0 ]
 then
     echo "Error:: Please run the script with Admin access"
     exit 1
